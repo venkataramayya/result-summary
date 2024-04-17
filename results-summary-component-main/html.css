@@ -1,0 +1,115 @@
+body{
+    width: 100px;
+    height: 400px;
+    align-items: center;
+    place-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: white;
+    font-size: 14px;
+
+    display: flex;
+  min-height: 100vh; /* Ensures the body takes up the entire viewport height */
+  margin: 0; /* Remove default body margin */
+  justify-items: center;
+  
+ 
+
+}
+#main{
+    height: 300px;
+    width: 200px;
+    background-color:  hsl(241, 81%, 54%);
+    place-items: center;
+    align-items: center;
+    padding: 100px;
+    border-radius: 20px;
+   
+    
+}
+#main2{
+    height: 300px;
+    width: 100px;
+    background-color: hsl(0, 0%, 100%);
+    place-items: center;
+    align-items: center;
+    padding: 100px;
+    border-radius: 20px;
+ 
+    
+   
+    
+
+}
+.container{
+    display: flex;
+    margin: 350px;
+    
+
+}
+.circle {
+    width: 150px; /* Sets the width of the circle */
+    height: 150px; /* Sets the height of the circle */
+    background-color: hsla(256, 72%, 46%, 1); /* Sets the background color of the circle */
+    border-radius: 100%; /* Creates a circle by setting the border radius to 50% */
+    display: flex; /* Needed for centering the text content */
+    justify-content: center; /* Horizontally centers the text content */
+    align-items: center; /* Vertically centers the text content */
+    color: white;
+     /* Sets the color of the text content */
+     margin: 30PX;
+  }
+  p{
+    margin:0%;
+    color: rgb(241, 247, 246);
+    
+  }
+ H1{
+    text-align: center;
+    color: WHITE;
+
+ }
+ .summary{
+    color: rgb(19, 12, 2);
+    text-align:start;
+ }
+ .reaction {
+    color:hsl(0, 100%, 67%); /* Pink color for the reaction box */
+  width: 250px;
+  height: 20px;
+}
+  
+  .memory {
+    color: lightblue; /* Light blue color for the memory box */
+  }
+  
+  .verbal {
+    color: lightgreen; /* Light green color for the verbal box */
+  }
+  
+  .visual {
+     color: lightcoral; /* Light coral color for the visual box */
+  }
+  .box1{
+    padding: 20px;
+    font-size: 20px;
+    gap: 10px;
+  }
+  .butt{
+    background-color: blue;
+    border-radius: 10px;
+    width:290px;
+    place-items: center;
+    margin: 30px;
+    align-items: center;
+    justify-items: center;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+    
+  }
+  .attribution {
+    /* Styles for the attribution text */
+    font-size: 100%; /* Adjust font size as needed */
+    margin: 10px; /* Remove default margin */
+  }
